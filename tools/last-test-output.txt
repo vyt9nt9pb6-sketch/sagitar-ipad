@@ -1,0 +1,174 @@
+Test Suite 'All tests' started at 2026-10-22 10:37:44.036
+Test Suite 'debug.xctest' started at 2026-10-22 10:37:44.038
+Test Suite 'DataSourceTests' started at 2026-10-22 10:37:44.038
+Test Case 'DataSourceTests.testConnectFailureReportsFailedState' started at 2026-10-22 10:37:44.038
+Test Case 'DataSourceTests.testConnectFailureReportsFailedState' passed (0.001 seconds)
+Test Case 'DataSourceTests.testDrivingSimulatorIsDeterministicAndRealistic' started at 2026-10-22 10:37:44.039
+Test Case 'DataSourceTests.testDrivingSimulatorIsDeterministicAndRealistic' passed (0.023 seconds)
+Test Case 'DataSourceTests.testELM327DataSourceProducesSnapshot' started at 2026-10-22 10:37:44.061
+Test Case 'DataSourceTests.testELM327DataSourceProducesSnapshot' passed (0.004 seconds)
+Test Case 'DataSourceTests.testExlapStubReportsUnavailable' started at 2026-10-22 10:37:44.065
+Test Case 'DataSourceTests.testExlapStubReportsUnavailable' passed (0.0 seconds)
+Test Case 'DataSourceTests.testFallbacksWhenMAFAndVoltagePIDsUnsupported' started at 2026-10-22 10:37:44.066
+Test Case 'DataSourceTests.testFallbacksWhenMAFAndVoltagePIDsUnsupported' passed (0.002 seconds)
+Test Case 'DataSourceTests.testSimulatedDataSourceStreams' started at 2026-10-22 10:37:44.067
+Test Case 'DataSourceTests.testSimulatedDataSourceStreams' passed (0.501 seconds)
+Test Case 'DataSourceTests.testSimulatedTripAverageConsumptionPlausible' started at 2026-10-22 10:37:44.569
+Test Case 'DataSourceTests.testSimulatedTripAverageConsumptionPlausible' passed (0.009 seconds)
+Test Case 'DataSourceTests.testVehicleNotRespondingState' started at 2026-10-22 10:37:44.577
+Test Case 'DataSourceTests.testVehicleNotRespondingState' passed (0.053 seconds)
+Test Suite 'DataSourceTests' passed at 2026-10-22 10:37:44.631
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.593 (0.593) seconds
+Test Suite 'FormulaTests' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testCommandStrings' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testCommandStrings' passed (0.0 seconds)
+Test Case 'FormulaTests.testControlModuleVoltage' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testControlModuleVoltage' passed (0.0 seconds)
+Test Case 'FormulaTests.testCoolant' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testCoolant' passed (0.0 seconds)
+Test Case 'FormulaTests.testDecodeTooFewBytes' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testDecodeTooFewBytes' passed (0.0 seconds)
+Test Case 'FormulaTests.testFuelLevel' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testFuelLevel' passed (0.0 seconds)
+Test Case 'FormulaTests.testMAF' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testMAF' passed (0.0 seconds)
+Test Case 'FormulaTests.testMAPAndIAT' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testMAPAndIAT' passed (0.0 seconds)
+Test Case 'FormulaTests.testRPM' started at 2026-10-22 10:37:44.631
+Test Case 'FormulaTests.testRPM' passed (0.0 seconds)
+Test Case 'FormulaTests.testSpeed' started at 2026-10-22 10:37:44.632
+Test Case 'FormulaTests.testSpeed' passed (0.0 seconds)
+Test Case 'FormulaTests.testSupportedPIDBitmask' started at 2026-10-22 10:37:44.632
+Test Case 'FormulaTests.testSupportedPIDBitmask' passed (0.0 seconds)
+Test Case 'FormulaTests.testSupportedPIDBitmaskOffsetBase' started at 2026-10-22 10:37:44.632
+Test Case 'FormulaTests.testSupportedPIDBitmaskOffsetBase' passed (0.0 seconds)
+Test Suite 'FormulaTests' passed at 2026-10-22 10:37:44.632
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'FuelAndTripTests' started at 2026-10-22 10:37:44.632
+Test Case 'FuelAndTripTests.testCalibrationFactor' started at 2026-10-22 10:37:44.632
+Test Case 'FuelAndTripTests.testCalibrationFactor' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testInstantPer100km' started at 2026-10-22 10:37:44.632
+Test Case 'FuelAndTripTests.testInstantPer100km' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testInstantPer100kmNilWhenStopped' started at 2026-10-22 10:37:44.632
+Test Case 'FuelAndTripTests.testInstantPer100kmNilWhenStopped' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testLitersPerHourFromMAF' started at 2026-10-22 10:37:44.633
+Test Case 'FuelAndTripTests.testLitersPerHourFromMAF' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testSpeedDensityEstimate' started at 2026-10-22 10:37:44.633
+Test Case 'FuelAndTripTests.testSpeedDensityEstimate' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testTripComputerIgnoresGapsAndIdleDistance' started at 2026-10-22 10:37:44.633
+Test Case 'FuelAndTripTests.testTripComputerIgnoresGapsAndIdleDistance' passed (0.1 seconds)
+Test Case 'FuelAndTripTests.testTripComputerIntegration' started at 2026-10-22 10:37:44.733
+Test Case 'FuelAndTripTests.testTripComputerIntegration' passed (0.0 seconds)
+Test Case 'FuelAndTripTests.testTripSummaryAverages' started at 2026-10-22 10:37:44.733
+Test Case 'FuelAndTripTests.testTripSummaryAverages' passed (0.0 seconds)
+Test Suite 'FuelAndTripTests' passed at 2026-10-22 10:37:44.733
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.101 (0.101) seconds
+Test Suite 'ParserTests' started at 2026-10-22 10:37:44.733
+Test Case 'ParserTests.testATZEchoAndVersion' started at 2026-10-22 10:37:44.733
+Test Case 'ParserTests.testATZEchoAndVersion' passed (0.0 seconds)
+Test Case 'ParserTests.testAdapterVoltage' started at 2026-10-22 10:37:44.734
+Test Case 'ParserTests.testAdapterVoltage' passed (0.0 seconds)
+Test Case 'ParserTests.testBusInitError' started at 2026-10-22 10:37:44.734
+Test Case 'ParserTests.testBusInitError' passed (0.0 seconds)
+Test Case 'ParserTests.testBusInitOK' started at 2026-10-22 10:37:44.734
+Test Case 'ParserTests.testBusInitOK' passed (0.0 seconds)
+Test Case 'ParserTests.testBusInitOKSameLineData' started at 2026-10-22 10:37:44.734
+Test Case 'ParserTests.testBusInitOKSameLineData' passed (0.0 seconds)
+Test Case 'ParserTests.testCanErrorAndBufferFull' started at 2026-10-22 10:37:44.734
+Test Case 'ParserTests.testCanErrorAndBufferFull' passed (0.0 seconds)
+Test Case 'ParserTests.testDataErrorSuffixLineIsRejected' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testDataErrorSuffixLineIsRejected' passed (0.0 seconds)
+Test Case 'ParserTests.testEchoGluedToDataOnSameLine' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testEchoGluedToDataOnSameLine' passed (0.0 seconds)
+Test Case 'ParserTests.testEchoLineIsIgnored' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testEchoLineIsIgnored' passed (0.0 seconds)
+Test Case 'ParserTests.testEchoWithSpacesIsIgnored' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testEchoWithSpacesIsIgnored' passed (0.0 seconds)
+Test Case 'ParserTests.testExpectOK' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testExpectOK' passed (0.0 seconds)
+Test Case 'ParserTests.testGarbageIsMalformed' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testGarbageIsMalformed' passed (0.0 seconds)
+Test Case 'ParserTests.testHeadersWithoutSpaces' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testHeadersWithoutSpaces' passed (0.0 seconds)
+Test Case 'ParserTests.testLowercaseAndLFLineEndings' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testLowercaseAndLFLineEndings' passed (0.0 seconds)
+Test Case 'ParserTests.testMultiFrameFollowedBySingleFrame' started at 2026-10-22 10:37:44.735
+Test Case 'ParserTests.testMultiFrameFollowedBySingleFrame' passed (0.0 seconds)
+Test Case 'ParserTests.testMultiFrameWithLengthLine' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testMultiFrameWithLengthLine' passed (0.0 seconds)
+Test Case 'ParserTests.testMultiFrameWithoutSpacesNoLength' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testMultiFrameWithoutSpacesNoLength' passed (0.0 seconds)
+Test Case 'ParserTests.testMultipleECUsWithHeadersPrefersEngine7E8' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testMultipleECUsWithHeadersPrefersEngine7E8' passed (0.0 seconds)
+Test Case 'ParserTests.testMultipleECUsWithoutHeadersTakesFirst' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testMultipleECUsWithoutHeadersTakesFirst' passed (0.0 seconds)
+Test Case 'ParserTests.testNoData' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testNoData' passed (0.0 seconds)
+Test Case 'ParserTests.testNulBytesAreIgnored' started at 2026-10-22 10:37:44.736
+Test Case 'ParserTests.testNulBytesAreIgnored' passed (0.101 seconds)
+Test Case 'ParserTests.testOneECUNoDataOtherECUData' started at 2026-10-22 10:37:44.837
+Test Case 'ParserTests.testOneECUNoDataOtherECUData' passed (0.0 seconds)
+Test Case 'ParserTests.testQuestionMark' started at 2026-10-22 10:37:44.838
+Test Case 'ParserTests.testQuestionMark' passed (0.001 seconds)
+Test Case 'ParserTests.testRPMWithSpaces' started at 2026-10-22 10:37:44.838
+Test Case 'ParserTests.testRPMWithSpaces' passed (0.001 seconds)
+Test Case 'ParserTests.testRPMWithoutSpaces' started at 2026-10-22 10:37:44.839
+Test Case 'ParserTests.testRPMWithoutSpaces' passed (0.101 seconds)
+Test Case 'ParserTests.testSearchingPrefix' started at 2026-10-22 10:37:44.940
+Test Case 'ParserTests.testSearchingPrefix' passed (0.0 seconds)
+Test Case 'ParserTests.testSearchingThenUnableToConnect' started at 2026-10-22 10:37:44.940
+Test Case 'ParserTests.testSearchingThenUnableToConnect' passed (0.0 seconds)
+Test Case 'ParserTests.testSearchingWithEcho' started at 2026-10-22 10:37:44.940
+Test Case 'ParserTests.testSearchingWithEcho' passed (0.0 seconds)
+Test Case 'ParserTests.testStopped' started at 2026-10-22 10:37:44.940
+Test Case 'ParserTests.testStopped' passed (0.0 seconds)
+Test Case 'ParserTests.testSupportedPIDsUnionAcrossECUs' started at 2026-10-22 10:37:44.941
+Test Case 'ParserTests.testSupportedPIDsUnionAcrossECUs' passed (0.0 seconds)
+Test Case 'ParserTests.testTooFewBytes' started at 2026-10-22 10:37:44.941
+Test Case 'ParserTests.testTooFewBytes' passed (0.1 seconds)
+Test Case 'ParserTests.testWrongPIDIsMalformed' started at 2026-10-22 10:37:45.041
+Test Case 'ParserTests.testWrongPIDIsMalformed' passed (0.001 seconds)
+Test Suite 'ParserTests' passed at 2026-10-22 10:37:45.042
+	 Executed 32 tests, with 0 failures (0 unexpected) in 0.308 (0.308) seconds
+Test Suite 'SessionTests' started at 2026-10-22 10:37:45.042
+Test Case 'SessionTests.testBlockedCommandNeverReachesTransport' started at 2026-10-22 10:37:45.042
+Test Case 'SessionTests.testBlockedCommandNeverReachesTransport' passed (0.0 seconds)
+Test Case 'SessionTests.testFullInitSequenceAndRead' started at 2026-10-22 10:37:45.042
+Test Case 'SessionTests.testFullInitSequenceAndRead' passed (0.002 seconds)
+Test Case 'SessionTests.testLateResponseAfterTimeoutIsDiscarded' started at 2026-10-22 10:37:45.044
+Test Case 'SessionTests.testLateResponseAfterTimeoutIsDiscarded' passed (0.051 seconds)
+Test Case 'SessionTests.testNoDataForUnsupportedPID' started at 2026-10-22 10:37:45.095
+Test Case 'SessionTests.testNoDataForUnsupportedPID' passed (0.002 seconds)
+Test Case 'SessionTests.testResponseBufferingAcrossSmallChunks' started at 2026-10-22 10:37:45.097
+Test Case 'SessionTests.testResponseBufferingAcrossSmallChunks' passed (0.106 seconds)
+Test Case 'SessionTests.testStoppedIsRetriedOnce' started at 2026-10-22 10:37:45.202
+Test Case 'SessionTests.testStoppedIsRetriedOnce' passed (0.001 seconds)
+Test Case 'SessionTests.testTimeoutWhenAdapterSilent' started at 2026-10-22 10:37:45.204
+Test Case 'SessionTests.testTimeoutWhenAdapterSilent' passed (0.201 seconds)
+Test Case 'SessionTests.testTransportDropFailsPendingCommand' started at 2026-10-22 10:37:45.404
+Test Case 'SessionTests.testTransportDropFailsPendingCommand' passed (0.101 seconds)
+Test Case 'SessionTests.testUnableToConnectDuringInit' started at 2026-10-22 10:37:45.505
+Test Case 'SessionTests.testUnableToConnectDuringInit' passed (0.001 seconds)
+Test Case 'SessionTests.testWorksWithSpacesAndHeadersOnAdapter' started at 2026-10-22 10:37:45.506
+Test Case 'SessionTests.testWorksWithSpacesAndHeadersOnAdapter' passed (0.002 seconds)
+Test Suite 'SessionTests' passed at 2026-10-22 10:37:45.508
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.466 (0.466) seconds
+Test Suite 'WhitelistTests' started at 2026-10-22 10:37:45.508
+Test Case 'WhitelistTests.testInitSequenceAllowed' started at 2026-10-22 10:37:45.508
+Test Case 'WhitelistTests.testInitSequenceAllowed' passed (0.0 seconds)
+Test Case 'WhitelistTests.testNormalizationAllowsSpacesAndLowercase' started at 2026-10-22 10:37:45.508
+Test Case 'WhitelistTests.testNormalizationAllowsSpacesAndLowercase' passed (0.0 seconds)
+Test Case 'WhitelistTests.testPollPIDsAllowed' started at 2026-10-22 10:37:45.508
+Test Case 'WhitelistTests.testPollPIDsAllowed' passed (0.0 seconds)
+Test Case 'WhitelistTests.testWritesAndUnknownCommandsRejected' started at 2026-10-22 10:37:45.509
+Test Case 'WhitelistTests.testWritesAndUnknownCommandsRejected' passed (0.0 seconds)
+Test Suite 'WhitelistTests' passed at 2026-10-22 10:37:45.509
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'debug.xctest' passed at 2026-10-22 10:37:45.509
+	 Executed 73 tests, with 0 failures (0 unexpected) in 1.47 (1.47) seconds
+Test Suite 'All tests' passed at 2026-10-22 10:37:45.509
+	 Executed 73 tests, with 0 failures (0 unexpected) in 1.47 (1.47) seconds
+◇ Test run started.
+↳ Testing Library Version: 6.1.2 (d6b70f9ef9eb207)
+↳ Target Platform: x86_64-unknown-linux-gnu
+✔ Test run with 0 tests passed after 0.001 seconds.

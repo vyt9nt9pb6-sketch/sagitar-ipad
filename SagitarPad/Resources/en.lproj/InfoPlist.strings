@@ -1,0 +1,2 @@
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth is used to connect to your OBD-II (ELM327 BLE) adapter to read speed, RPM, coolant temperature and other data. The app is read-only and never writes to the vehicle.";
+"CFBundleDisplayName" = "SagitarPad";

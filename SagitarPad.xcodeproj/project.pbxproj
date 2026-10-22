@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E95F6018B2DD5BBE2EE1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C3A196CE4DDA53F4468287 /* Assets.xcassets */; };
+		124D8696EAA54C53E6FE26AB /* RPMGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62110B1BA23E049D3294B77 /* RPMGaugeView.swift */; };
+		28A4340958FAB221C57779C4 /* SagitarPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51905F0CCC2E44DADA197D /* SagitarPadApp.swift */; };
+		28D74FED65344916D770D032 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85102DA0735F23825C3201 /* MetricCard.swift */; };
+		2B80CCE8D4047003F3CC7D68 /* SagitarCore in Frameworks */ = {isa = PBXBuildFile; productRef = 136E5B1D24FA5D7EF7E2C51B /* SagitarCore */; };
+		30F10DC3C5D255300FB8FF83 /* TripComputerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154E12BA90AC200317A77F6 /* TripComputerCard.swift */; };
+		601068C4E12D9F656245C288 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07A157C674F9E457AA6549 /* AppSettings.swift */; };
+		6A3144C05083F573136354F0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CEB701B924898A466605 /* DashboardView.swift */; };
+		6B596EEADC0A3908F37E6A72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74C036FC22D9B2C8FF1ABA60 /* InfoPlist.strings */; };
+		8106B71897798E44D821E641 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC313FC5A9E356FC233587 /* Theme.swift */; };
+		936922591A3A46B4633EB7E9 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348A3263C6EDF18068A8F00 /* DashboardViewModel.swift */; };
+		948F2A30B3D0A29EC141CD61 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA1D514B39DCF6CC9A386448 /* Localizable.strings */; };
+		97469C25E104D5C7E3A7435F /* ConnectionStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0CD6BB094F8406B66CD59B /* ConnectionStatusBar.swift */; };
+		B1A5AC1BE73E0C94DA5B3DD0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76B8E31B11537C28257E36 /* SettingsView.swift */; };
+		D02A2FE930D1877339CF19CE /* ShortcutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED155B49F044B024DBB613 /* ShortcutBar.swift */; };
+		FC345BFD121810E9446DC4EF /* ShortcutLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D814B7AB8F8E83E521DA9A /* ShortcutLauncher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09ED7BE9139FEB5D87FBF386 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44C3A196CE4DDA53F4468287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D07A157C674F9E457AA6549 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		4FED155B49F044B024DBB613 /* ShortcutBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutBar.swift; sourceTree = "<group>"; };
+		6154E12BA90AC200317A77F6 /* TripComputerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripComputerCard.swift; sourceTree = "<group>"; };
+		62D814B7AB8F8E83E521DA9A /* ShortcutLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutLauncher.swift; sourceTree = "<group>"; };
+		7C9F16CEFA66803AF518A8DD /* SagitarCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SagitarCore; path = SagitarCore; sourceTree = SOURCE_ROOT; };
+		85908003B4E3FC621115955D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B76B8E31B11537C28257E36 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9CAC313FC5A9E356FC233587 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BE85102DA0735F23825C3201 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		C218D74A8E53092D507CE1C6 /* SagitarPad.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SagitarPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C348A3263C6EDF18068A8F00 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		C62110B1BA23E049D3294B77 /* RPMGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPMGaugeView.swift; sourceTree = "<group>"; };
+		DC51905F0CCC2E44DADA197D /* SagitarPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagitarPadApp.swift; sourceTree = "<group>"; };
+		E340CEB701B924898A466605 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E712E8AC05862812B2AAFC23 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E9A22A1C213FE02212C92534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F251D99E3DC9006A3A0A0386 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FB0CD6BB094F8406B66CD59B /* ConnectionStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatusBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79665C377193C1AD8028A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B80CCE8D4047003F3CC7D68 /* SagitarCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16ACB410EEA9CCE050F9B1F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C348A3263C6EDF18068A8F00 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		23EA645C4825265FA4A26515 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F16CEFA66803AF518A8DD /* SagitarCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		25F43CBC6F93686B464A18E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44C3A196CE4DDA53F4468287 /* Assets.xcassets */,
+				74C036FC22D9B2C8FF1ABA60 /* InfoPlist.strings */,
+				BA1D514B39DCF6CC9A386448 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DD4767F69084B682B9CDDA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC51905F0CCC2E44DADA197D /* SagitarPadApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		37E14B601E08B3162BB5F6B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CD6BB094F8406B66CD59B /* ConnectionStatusBar.swift */,
+				E340CEB701B924898A466605 /* DashboardView.swift */,
+				BE85102DA0735F23825C3201 /* MetricCard.swift */,
+				C62110B1BA23E049D3294B77 /* RPMGaugeView.swift */,
+				8B76B8E31B11537C28257E36 /* SettingsView.swift */,
+				4FED155B49F044B024DBB613 /* ShortcutBar.swift */,
+				9CAC313FC5A9E356FC233587 /* Theme.swift */,
+				6154E12BA90AC200317A77F6 /* TripComputerCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D0117E6E4C4DC16610A60C3 = {
+			isa = PBXGroup;
+			children = (
+				23EA645C4825265FA4A26515 /* Packages */,
+				90AAAF7C70835FFCBD881C2A /* SagitarPad */,
+				BE9DE0CE5F2792576F96A606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AAAF7C70835FFCBD881C2A /* SagitarPad */ = {
+			isa = PBXGroup;
+			children = (
+				85908003B4E3FC621115955D /* Info.plist */,
+				25F43CBC6F93686B464A18E3 /* Resources */,
+				AC06AFB6E2152567DA257CD0 /* Sources */,
+			);
+			path = SagitarPad;
+			sourceTree = "<group>";
+		};
+		AC06AFB6E2152567DA257CD0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2DD4767F69084B682B9CDDA8 /* App */,
+				BB67B02890CB3A5115CCFE76 /* Services */,
+				16ACB410EEA9CCE050F9B1F8 /* ViewModels */,
+				37E14B601E08B3162BB5F6B5 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB67B02890CB3A5115CCFE76 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D07A157C674F9E457AA6549 /* AppSettings.swift */,
+				62D814B7AB8F8E83E521DA9A /* ShortcutLauncher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE9DE0CE5F2792576F96A606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C218D74A8E53092D507CE1C6 /* SagitarPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844C79895191308E0C5F8D71 /* SagitarPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D18092749A417DCFD7464BB /* Build configuration list for PBXNativeTarget "SagitarPad" */;
+			buildPhases = (
+				210D260BB44095E890B0082A /* Sources */,
+				2D1AF169F30C42F1A86DC8DF /* Resources */,
+				F79665C377193C1AD8028A1F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SagitarPad;
+			packageProductDependencies = (
+				136E5B1D24FA5D7EF7E2C51B /* SagitarCore */,
+			);
+			productName = SagitarPad;
+			productReference = C218D74A8E53092D507CE1C6 /* SagitarPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048A2276D0BD4D5019A58AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					844C79895191308E0C5F8D71 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 019203181718E79CBA35B86F /* Build configuration list for PBXProject "SagitarPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hant";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hant",
+			);
+			mainGroup = 6D0117E6E4C4DC16610A60C3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				67C84639705BA827E5F521B9 /* XCLocalSwiftPackageReference "SagitarCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844C79895191308E0C5F8D71 /* SagitarPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1AF169F30C42F1A86DC8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E95F6018B2DD5BBE2EE1CB /* Assets.xcassets in Resources */,
+				6B596EEADC0A3908F37E6A72 /* InfoPlist.strings in Resources */,
+				948F2A30B3D0A29EC141CD61 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210D260BB44095E890B0082A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601068C4E12D9F656245C288 /* AppSettings.swift in Sources */,
+				97469C25E104D5C7E3A7435F /* ConnectionStatusBar.swift in Sources */,
+				6A3144C05083F573136354F0 /* DashboardView.swift in Sources */,
+				936922591A3A46B4633EB7E9 /* DashboardViewModel.swift in Sources */,
+				28D74FED65344916D770D032 /* MetricCard.swift in Sources */,
+				124D8696EAA54C53E6FE26AB /* RPMGaugeView.swift in Sources */,
+				28A4340958FAB221C57779C4 /* SagitarPadApp.swift in Sources */,
+				B1A5AC1BE73E0C94DA5B3DD0 /* SettingsView.swift in Sources */,
+				D02A2FE930D1877339CF19CE /* ShortcutBar.swift in Sources */,
+				FC345BFD121810E9446DC4EF /* ShortcutLauncher.swift in Sources */,
+				8106B71897798E44D821E641 /* Theme.swift in Sources */,
+				30F10DC3C5D255300FB8FF83 /* TripComputerCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74C036FC22D9B2C8FF1ABA60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09ED7BE9139FEB5D87FBF386 /* en */,
+				F251D99E3DC9006A3A0A0386 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA1D514B39DCF6CC9A386448 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A22A1C213FE02212C92534 /* en */,
+				E712E8AC05862812B2AAFC23 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD62F26ACDC415B6F0D28CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SagitarPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.sagitarpad;
+				PRODUCT_NAME = SagitarPad;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		856726F83B66315B7F4F1E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8CC81ED4D9D1CE2A138FDD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SagitarPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwok.sagitarpad;
+				PRODUCT_NAME = SagitarPad;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		913405413F9BCAE4181CD4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019203181718E79CBA35B86F /* Build configuration list for PBXProject "SagitarPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856726F83B66315B7F4F1E73 /* Debug */,
+				913405413F9BCAE4181CD4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D18092749A417DCFD7464BB /* Build configuration list for PBXNativeTarget "SagitarPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD62F26ACDC415B6F0D28CA /* Debug */,
+				8CC81ED4D9D1CE2A138FDD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		67C84639705BA827E5F521B9 /* XCLocalSwiftPackageReference "SagitarCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SagitarCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		136E5B1D24FA5D7EF7E2C51B /* SagitarCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SagitarCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 048A2276D0BD4D5019A58AA1 /* Project object */;
+}

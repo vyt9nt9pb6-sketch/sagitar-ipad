@@ -1,0 +1,2 @@
+"NSBluetoothAlwaysUsageDescription" = "需要使用藍牙連接 OBD-II（ELM327 BLE）轉接器，以讀取車速、轉速、水溫等行車資料。本 App 只讀取，不會寫入車輛。";
+"CFBundleDisplayName" = "Sagitar 車機";
