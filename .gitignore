@@ -4,3 +4,10 @@ DerivedData/
 xcuserdata/
 *.xcuserstate
 __pycache__/
+.DS_Store
+build/
+.env
+.env.*
+.run/
+*.p12
+*.mobileprovision
